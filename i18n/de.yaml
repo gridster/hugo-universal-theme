@@ -1,8 +1,8 @@
 - id: home
-  translation: "Home"
+  translation: "Start"
 
 - id: templateBy
-  translation: "Design durch"
+  translation: "Grunddesign durch"
 
 - id: portedBy
   translation: "Portiert nach Hugo durch"
@@ -19,14 +19,20 @@
 - id: contactForm
   translation: "Kontaktformular"
 
+- id: contactFormHelp
+  translation: "Hinweis: Alle mit * gekennzeichneten Felder benötige ich zum Bearbeiten Ihrer Anfrage."
+
 - id: contactName
-  translation: "Ihr Name"
+  translation: "Ihr Vor- und Nachname *"
 
 - id: contactMail
-  translation: "Ihre E-Mail-Adresse"
+  translation: "Ihre E-Mail-Adresse *"
 
 - id: contactMessage
-  translation: "Ihre Nachricht an uns"
+  translation: "Ihre Nachricht an uns / Ihre Anfrage *"
+
+- id: formOptIn
+  translation: "* Einwilligung zur technischen Datenverarbeitung durch Sebastian Benderoth und technologische Partner (formspree)."
 
 - id: contactSend 
   translation: "Nachricht senden"
@@ -74,7 +80,7 @@
   translation: "Fehler 404: Seite nicht gefunden"
 
 - id: 404Message
-  translation: "Tut uns leid – diese Seite scheint nicht mehr hier zu sein"
+  translation: "Der angeforderte Inhalt scheint nicht (mehr) zu existieren."
 
 - id: 404NavHome
-  translation: "Zur Startseite gehen"
+  translation: "Zurück zum Start"
