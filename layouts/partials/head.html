@@ -3,6 +3,7 @@
   <meta name="robots" content="all,follow">
   <meta name="googlebot" content="index,follow,snippet,archive">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="https://cmp.osano.com/AzZcoORj1hvMVteV/2f4cc4a2-c82d-4760-addc-0e8cfe0f44be/osano.js"></script>
   {{ $title_plain := .Title | markdownify | plainify }}
   <title>{{ $title_plain }}</title>
   <meta name="author" content="{{ .Param "author" }}" />
@@ -19,7 +20,6 @@
 
   <!-- Font -->
   <link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,500,700,800' rel='stylesheet' type='text/css'>
-
   <!-- Bootstrap and Font Awesome CSS -->
   <link rel="stylesheet" href="//use.fontawesome.com/releases/v5.11.2/css/all.css">
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -46,8 +46,8 @@
   ` | safeHTML }}
 
   <!-- Favicon and Apple touch icons-->
-  <link rel="shortcut icon" href="{{ "img/favicon.ico" | relURL }}" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="{{ "img/apple-touch-icon.png" | relURL }}" />
+  <link rel="shortcut icon" href="{{ "img/icons/favicon.ico" | relURL }}" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="{{ "img/icons/apple-touch-icon.png" | relURL }}" />
 
   <!-- owl carousel CSS -->
   <link href="{{ "css/owl.carousel.css" | relURL}}" rel="stylesheet">
@@ -99,6 +99,5 @@
   {{ end }}
   <meta name="twitter:description" content="{{ $description_plain | truncate 200 }}">
   {{ with .Param "twitter_author" }}<meta name="twitter:creator" content="@{{ . }}">{{ end }}
-
 
 </head>
