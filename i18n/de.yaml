@@ -16,6 +16,9 @@
 - id: contactTitle
   translation: "Kontakt"
 
+- id: contactFooter
+  translation: "Sprechen Sie mich an"
+
 - id: contactForm
   translation: "Kontaktformular"
 
