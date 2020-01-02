@@ -1,6 +1,6 @@
 <!-- PureCookie -->
 <link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}css/purecookie.css" async />
-<script src="{{ .Site.BaseURL }}js/purecookie.js" async></script>
+
 
 {{ template "_internal/google_analytics.html" . }}
 
@@ -24,34 +24,7 @@
 
 <!-- owl carousel -->
 <script src="{{ .Site.BaseURL }}js/owl.carousel.min.js"></script>
-
-<!-- NOTE: Final decision on cookie consent solution tbd -->
-
-<!--            
-<link rel="stylesheet" type="text/css" href="{{ .Site.BaseURL }}js/css/tarteaucitron.css" />
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/AmauriC/tarteaucitron.js@V1.2/tarteaucitron.min.js"></script>
-    <script type="text/javascript">
-      tarteaucitron.init({
-        "privacyUrl": "/datenschutz", /* Privacy policy url */
-        "hashtag": "#tarteaucitron", /* Open the panel with this hashtag */
-        "cookieName": "tartaucitron", /* Cookie name */
-        "orientation": "bottom", /* Banner position (top - bottom) */
-        "showAlertSmall": true, /* Show the small banner on bottom right */
-        "cookieslist": true, /* Show the cookie list */
-        "adblocker": false, /* Show a Warning if an adblocker is detected */
-        "AcceptAllCta" : true, /* Show the accept all button when highPrivacy on */
-        "highPrivacy": false, /* Disable auto consent */
-        "handleBrowserDNTRequest": false, /* If Do Not Track == 1, accept all */
-        "removeCredit": false, /* Remove credit link */
-        "moreInfoLink": true, /* Show more info link */
-        //"cookieDomain": ".my-multisite-domaine.fr" /* Shared cookie for subdomain */
-      });
-    </script>
-
-    <script type="text/javascript">
-    	(tarteaucitron.job = tarteaucitron.job || []).push('');
-    </script>
--->
+<script src="{{ .Site.BaseURL }}js/purecookie.js" async></script>
 
 <!-- Matomo -->
 <script type="text/javascript">
