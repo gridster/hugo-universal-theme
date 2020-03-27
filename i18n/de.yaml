@@ -2,10 +2,10 @@
   translation: "Start"
 
 - id: templateBy
-  translation: "Grunddesign durch"
+  translation: "Kudos @"
 
 - id: portedBy
-  translation: "Portiert nach Hugo durch"
+  translation: "Hugo-Portierung durch"
 
 - id: contactGoTo
   translation: "Zur Kontaktseite"
@@ -20,28 +20,28 @@
   translation: "Kontakt"
 
 - id: contactFooter
-  translation: "Sprechen Sie mich an"
+  translation: "Anfrage"
 
 - id: contactForm
-  translation: "Kontaktformular"
+  translation: "Kontakt"
 
 - id: contactFormHelp
   translation: "Hinweis: Alle mit * gekennzeichneten Felder benötige ich zum Bearbeiten Ihrer Anfrage."
 
 - id: contactName
-  translation: "Ihr Vor- und Nachname *"
+  translation: "Vor- und Nachname *"
 
 - id: contactMail
-  translation: "Ihre E-Mail-Adresse *"
+  translation: "E-Mail *"
 
 - id: contactMessage
-  translation: "Ihre Nachricht an uns / Ihre Anfrage *"
+  translation: "Nachricht / Ihre Anfrage *"
 
 - id: formOptIn
   translation: "* Einwilligung zur technischen Datenverarbeitung durch Sebastian Benderoth und technologische Partner (formspree)."
 
 - id: contactSend 
-  translation: "Nachricht senden"
+  translation: "Absenden"
 
 - id: navHome 
   translation: "zur Hauptseite"
@@ -71,7 +71,7 @@
   translation: "Neue Beiträge"
 
 - id: aboutUs
-  translation: "Über uns"
+  translation: "Informationen"
 
 - id: newer
   translation: "Neuer"
